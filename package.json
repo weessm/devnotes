@@ -1,0 +1,28 @@
+{
+  "name": "devnotes",
+  "version": "1.0.0",
+  "description": "Sistema de anotações simples",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weessm/devnotes.git"
+  },
+  "keywords": [],
+  "author": "Weslei Souza Miranda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weessm/devnotes/issues"
+  },
+  "homepage": "https://github.com/weessm/devnotes#readme",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.95.4",
+    "mysql2": "^2.2.5"
+  }
+}
